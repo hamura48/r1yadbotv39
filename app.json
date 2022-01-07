@@ -1,0 +1,42 @@
+{
+    "name": "r1yadbotv4",
+    "logo": "https://telegra.ph//file/d265848868bb7dc18c3ce.jpg",
+    "description": "This bot is good for nothing..",
+    "repository": "https://github.com/hamura48/r1yadbotv39",
+    "website": "https://t.me/riyad48",
+    "success_url": "https://github.com/hamura48/r1yadbotv39",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "",
+            "required": "True"
+        },
+        "API_HASH": {
+            "description": "",
+            "required": "True"
+        },
+        "API_ID": {
+            "description": "",
+            "required": "True"
+        },
+        "OWNER_ID": {
+            "description": "",
+            "required": "True"
+        },
+        "BOT_NO": {
+            "description": "",
+            "required": "True"
+        }
+    },
+    "stack": "container",
+    "buildpacks": [
+        {
+            "url": "heruko/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
